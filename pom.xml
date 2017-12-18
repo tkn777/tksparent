@@ -14,6 +14,7 @@
 		<logback.version>1.2.3</logback.version>
 		<bouncycastle.version>1.46</bouncycastle.version>
 		<jetty.version>9.4.8.v20171121</jetty.version>
+        <junit.version>4.12</junit.version>
 		<xstream.version>1.4.10</xstream.version>
 		<beanvalidation-api.version>1.1.0.Final</beanvalidation-api.version>
 		<spring.version>4.3.13.RELEASE</spring.version>
@@ -300,29 +301,24 @@
 			<dependency>
 				<groupId>net.thk-systems.commons</groupId>
 				<artifactId>cumin</artifactId>
-				<version>3.12.0</version>
+                <version>3.13.0</version>
 			</dependency>
 			<dependency>
 				<groupId>net.thk-systems.commons</groupId>
 				<artifactId>mugwort</artifactId>
-				<version>3.7.0</version>
+                <version>3.8.0</version>
 			</dependency>
 			<dependency>
 				<groupId>net.thk-systems.network</groupId>
 				<artifactId>galangal</artifactId>
-				<version>1.0.2</version>
-			</dependency>
-			<dependency>
-				<groupId>de.thksystems</groupId>
-				<artifactId>tkscommons-wicket</artifactId>
-				<version>7.0-SNAPSHOT</version>
+                <version>1.1.0</version>
 			</dependency>
 
 			<!-- TEST -->
 			<dependency>
 				<groupId>junit</groupId>
 				<artifactId>junit</artifactId>
-				<version>4.12</version>
+                <version>${junit.version}</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
