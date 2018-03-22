@@ -28,6 +28,7 @@
         <commons-net.version>3.6</commons-net.version>
         <commons-io.version>2.6</commons-io.version>
         <commons-codec.version>1.11</commons-codec.version>
+        <guava.version>24.1-jre</guava.version>
         <reflections.version>0.9.11</reflections.version>
         <jcommander.version>1.72</jcommander.version>
         <jsch.version>0.1.54</jsch.version>
@@ -189,6 +190,11 @@
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>${commons-codec.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>${guava.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.reflections</groupId>
