@@ -38,7 +38,7 @@
 
     <organization>
         <name>ThK-Systems</name>
-        <url>http://www.thk-systems.de</url>
+        <url>https://www.thk-systems.de</url>
     </organization>
 
     <developers>
@@ -64,15 +64,15 @@
         </license>
     </licenses>
 
-    <url>https://github.com/tkn777</url>
+    <url>https://github.com/ThK-Systems</url>
 
     <scm>
-        <url>https://github.com/tkn777</url>
+        <url>https://github.com/ThK-Systems</url>
     </scm>
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/tkn777</url>
+        <url>https://github.com/ThK-Systems</url>
     </issueManagement>
 
     <distributionManagement>
@@ -343,5 +343,5 @@
         </dependencies>
     </dependencyManagement>
 
-    <version>1.17.0</version>
+    <version>1.18.0-SNAPSHOT</version>
 </project>
