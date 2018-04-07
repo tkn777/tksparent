@@ -307,7 +307,7 @@
             <dependency>
                 <groupId>net.thk-systems.commons</groupId>
                 <artifactId>cumin</artifactId>
-                <version>3.13.0</version>
+                <version>3.13.1</version>
             </dependency>
             <dependency>
                 <groupId>net.thk-systems.commons</groupId>
@@ -343,5 +343,5 @@
         </dependencies>
     </dependencyManagement>
 
-    <version>1.18.0-SNAPSHOT</version>
+    <version>1.18.0</version>
 </project>
